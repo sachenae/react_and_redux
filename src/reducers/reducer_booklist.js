@@ -3,6 +3,8 @@ export default function(){
         {title: 'Javascript'},
         {title: 'Scala'},
         {title: 'Python'},
-        {title: 'Ruby'}
+        {title: 'Ruby'},
+        {title: 'Vue'},
+        {title: 'Angular'}
     ]
 }
