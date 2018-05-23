@@ -1,10 +1,10 @@
 export default function(){
     return [
-        {title: 'Javascript'},
-        {title: 'Scala'},
-        {title: 'Python'},
-        {title: 'Ruby'},
-        {title: 'Vue'},
-        {title: 'Angular'}
+        {title: 'Javascript', pages: '123'},
+        {title: 'Scala', pages: '63'},
+        {title: 'Python', pages: '85'},
+        {title: 'Ruby', pages: '2'},
+        {title: 'Vue', pages: '39'},
+        {title: 'Angular', pages: '45'}
     ]
 }

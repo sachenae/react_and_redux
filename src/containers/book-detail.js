@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 
-class BooKDeatail extends Component {
+class BooKDetail extends Component {
     render(){
-       
+       if (!this.props.book) {
+           return <div>Select a book to view...</div>
+       }
         return(
             <div>
                 <h3>Details For:</h3>
@@ -20,3 +22,5 @@ function mapStateToProps(state){
         book: state.activeBook
     };
 }
+
+export default connect(mapStateToProps)(BooKDetail);
