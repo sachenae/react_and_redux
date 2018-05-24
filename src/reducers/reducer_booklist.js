@@ -6,5 +6,5 @@ export default function(){
         {title: 'Ruby', pages: '2'},
         {title: 'Vue', pages: '39'},
         {title: 'Angular', pages: '45'}
-    ]
+    ];
 }
